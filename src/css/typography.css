@@ -1,0 +1,75 @@
+a {
+  font-weight: 500;
+  color: var(--anchor-color);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--anchor-color);
+}
+
+p {
+  padding-block-start: 0.5rem;
+  /* text-wrap: pretty; */
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  border-bottom: 2.5px solid var(--primary);
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 100%;
+}
+
+h2 {
+  margin-block-start: 2rem;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  margin-block: 0.5rem;
+  text-wrap: pretty;
+}
+
+.assignments details span {
+  display: block;
+  text-indent: 0;
+}
+
+.assignments details.film ul,
+.assignments details.research ul {
+  list-style: disc;
+  padding-inline-start: 0.9rem;
+  text-wrap: pretty;
+}
+
+.assignments details.research span {
+  margin-block-start: 1rem;
+}
+
+.assignments details.research .list {
+  column-count: 3;
+  margin-block-start: 0.5rem;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}

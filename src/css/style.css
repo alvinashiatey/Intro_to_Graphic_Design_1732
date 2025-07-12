@@ -1,0 +1,101 @@
+:root {
+  --primary: #181818;
+  --secondary: rgba(255, 255, 255, 0.87);
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 2rem;
+
+  color-scheme: light dark;
+  color: var(--primary);
+  /* text-wrap: balance; */
+  background-color: var(--secondary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+main section {
+  height: 100vh;
+  padding-inline: 2rem;
+}
+
+section.left {
+  overflow-y: auto;
+  scrollbar-width: none; /* For Firefox */
+}
+
+section.left::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+section .bottom p {
+  line-height: 100%;
+}
+
+section .bottom .fac {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.right {
+  h1,
+  p {
+    color: var(--anchor-color);
+  }
+}
+
+section.right .banner {
+  padding-block: 1.5rem;
+  color: var(--secondary);
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section.right:has(.banner) {
+  background-color: #1a1a1a;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

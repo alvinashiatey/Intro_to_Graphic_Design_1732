@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Introduction to Graphic Design</title>
   </head>
+
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main>
+        <section class="left">
+          {{> about }} {{> readings}} {{> assignments}}
+        </section>
+        <section class="right">
+          <div class="banner">
+            <h1>Introduction to Graphic Design</h1>
+            <div class="bottom">
+              <p>ART 132</p>
+              <div class="fac">
+                <p>Instructor: Alvin Ashiatey</p>
+                <p>Teaching Assistant: <i>TBD</i></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
