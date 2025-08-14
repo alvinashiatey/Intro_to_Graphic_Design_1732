@@ -1,0 +1,260 @@
+[
+  {
+    "week": 1,
+    "sessions": [
+      {
+        "date": "Wednesday August 27",
+        "items": [
+          "Syllabus Overview",
+          "Class website walkthrough",
+          "Introductions",
+          "lecture: I'm a Graphic Designer"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "sessions": [
+      {
+        "date": "Wednesday September 3",
+        "items": [
+          "Graphic Design Show & Tell presentations",
+          "Readings packet 1 assigned",
+          "Begin Composing Space(s) assignment (choose / visit / describe spaces)",
+          "For next week: Get access to Annex Lab"
+        ]
+      },
+      {
+        "date": "Friday September 5",
+        "items": [
+          "Present space chosen for Composing Space(s) assignment",
+          "Working on Composing Space(s) Part 1"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "sessions": [
+      {
+        "date": "Wednesday September 10",
+        "items": [
+          "Class tools and materials distributed",
+          "Readings packet 1 discussion / reading responses uploaded",
+          "Demo: Illustrator"
+        ]
+      },
+      {
+        "date": "Friday September 12",
+        "items": [
+          "Composing Space(s) Part 1 due",
+          "Lecture: Graphic Design History",
+          "Demo: Illustrator"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "sessions": [
+      {
+        "date": "Wednesday September 17",
+        "items": [
+          "Critique: Composing Space(s) Part 1 and Part 2",
+          "For Friday: Composing Space(s) Part 3"
+        ]
+      },
+      {
+        "date": "Friday September 19",
+        "items": [
+          "Critique: Composing Space(s) Part 3",
+          "Lecture: Photocopying",
+          "For next week: Composing Space(s) Part 4"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "sessions": [
+      {
+        "date": "Wednesday September 24",
+        "items": [
+          "Readings packet 2 assigned",
+          "Critique: Composing Space(s) Part 4"
+        ]
+      },
+      {
+        "date": "Friday September 26",
+        "items": [
+          "Begin Designer Research assignment (choose designer)",
+          "For next week: Designer Research presentations"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "sessions": [
+      {
+        "date": "Wednesday October 1",
+        "items": ["TBD"]
+      },
+      {
+        "date": "Friday October 3",
+        "items": [
+          "Designer Research presentations",
+          "For next week: Found Poster assignment"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "sessions": [
+      {
+        "date": "Wednesday October 8",
+        "items": [
+          "Lecture: Typography",
+          "Readings packet 2 discussion / reading responses uploaded",
+          "Readings packet 3 assigned"
+        ]
+      },
+      {
+        "date": "Friday October 10",
+        "items": [
+          "Critique: Found Poster",
+          "Screening: Short film pieces for Film Invite assignment",
+          "Slide: Film Invite",
+          "For next week: Film Invite Part 1"
+        ]
+      }
+    ]
+  },
+  { "break": "October Recess" },
+  {
+    "week": 8,
+    "sessions": [
+      {
+        "date": "Wednesday October 22",
+        "items": ["Critique: Film Invite Part 1"]
+      },
+      {
+        "date": "Friday October 24",
+        "items": ["Demo: InDesign", "Working on Film Invite Part 2"]
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "sessions": [
+      {
+        "date": "Wednesday October 29",
+        "items": [
+          "Working on Film Invite Part 2 & Part 3",
+          "Reading packet 3 discussion / reading responses uploaded"
+        ]
+      },
+      {
+        "date": "Friday October 31",
+        "items": [
+          "Critique: Film Invite Part 2 & Part 3",
+          "Lecture: Collecting",
+          "Readings packet 4 assigned",
+          "For after Spring Recess: Collecting-Documenting assignment (2 ideas for visual collection)"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "sessions": [
+      {
+        "date": "Wednesday November 5",
+        "items": [
+          "Present 2 ideas for visual collection",
+          "Reading packet 4 discussion / reading responses uploaded",
+          "Lecture: Documenting"
+        ]
+      },
+      {
+        "date": "Friday November 7",
+        "items": [
+          "Working on documenting collection",
+          "For next week: Documentation of collection"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "sessions": [
+      {
+        "date": "Wednesday November 12",
+        "items": [
+          "Present 2 different methods of documentation",
+          "Working on documenting collection"
+        ]
+      },
+      {
+        "date": "Friday November 14",
+        "items": [
+          "Critique: Collecting-Documenting",
+          "Readings packet 5 assigned",
+          "For next week: Collecting-Collating assignment sketches"
+        ]
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "sessions": [
+      {
+        "date": "Wednesday November 19",
+        "items": [
+          "Lecture: Looking at Books",
+          "Working on sketches and mockups of booklet"
+        ]
+      },
+      {
+        "date": "Friday November 21",
+        "items": [
+          "Lecture: TBD",
+          "Readings packet 5 discussion / reading responses uploaded",
+          "Working on proof of booklet"
+        ]
+      }
+    ]
+  },
+  { "break": "November Recess" },
+  {
+    "week": 13,
+    "sessions": [
+      {
+        "date": "Wednesday December 3",
+        "items": ["1-on-1 check-ins", "Working on proof of booklet"]
+      },
+      {
+        "date": "Friday December 5",
+        "items": ["Present proof of booklet"]
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "sessions": [
+      {
+        "date": "Wednesday December 10",
+        "items": ["1-on-1 check-ins", "Prepare for Final Review"]
+      },
+      {
+        "date": "Friday December 12",
+        "items": [
+          "Final Review with guest critic TBC",
+          "By Friday April 26: Upload documentation of work to class archive"
+        ]
+      }
+    ]
+  }
+]
