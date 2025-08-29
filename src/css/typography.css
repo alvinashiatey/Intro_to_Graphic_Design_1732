@@ -43,7 +43,8 @@ details {
 }
 
 .assignments details.film ul,
-.assignments details.research ul {
+.assignments details.research ul,
+.assignments details.show ul {
   list-style: disc;
   padding-inline-start: 0.9rem;
   text-wrap: pretty;
@@ -56,6 +57,15 @@ details {
 .assignments details.research .list {
   column-count: 3;
   margin-block-start: 0.5rem;
+}
+
+.assignments details.show ul {
+  margin-top: 1rem;
+}
+
+.assignments details.show ul li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
 }
 
 summary {

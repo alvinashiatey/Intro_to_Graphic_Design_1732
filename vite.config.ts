@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import handlebars from "vite-plugin-handlebars";
 import path from "path";
-import schedule from "./src/data/schedule.json" assert { type: "json" };
+import schedule from "./src/data/schedule.json" with { type: "json" };
 
 export default defineConfig({
   plugins: [
