@@ -1,7 +1,7 @@
 import { registerSW } from "virtual:pwa-register";
 
 // This will be replaced at build time with actual values
-const CURRENT_VERSION = "1.0.0";
+const CURRENT_VERSION = "1.0.1";
 const VERSION_CHECK_INTERVAL = 1000 * 60 * 60; // Check every hour
 
 // Create and register the toast container
