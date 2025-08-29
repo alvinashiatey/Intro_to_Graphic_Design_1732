@@ -29,3 +29,35 @@ Or with npm:
 npm install
 npm run dev
 ```
+
+## PWA Functionality
+
+This site is configured as a Progressive Web App (PWA), allowing students to:
+
+- Receive notifications when the site is updated
+- Install the site as an app on their devices
+- Access content offline
+
+### PWA Commands
+
+```sh
+# Generate icons from SVG
+npm run generate-icons
+
+# Update version to trigger notification
+npm run update-version
+
+# Complete PWA build (icons + version + build)
+npm run pwa-build
+```
+
+### Updating the Site
+
+When you make changes to the course content:
+
+1. Edit the content files
+2. Run `npm run update-version` to increment the version number
+3. Build and deploy the site
+4. Students will see a notification about the update
+
+The notification system uses a version check to detect updates and shows a toast message when new content is available.

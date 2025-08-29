@@ -1,5 +1,9 @@
 import "./css/style.css";
 import "./css/typography.css";
+import { initPWA } from "./ts/pwa";
+
+// Initialize PWA functionality
+initPWA();
 
 const colors = ["#3674B5", "#FBA518", "#5B913B", "#BE3144"];
 

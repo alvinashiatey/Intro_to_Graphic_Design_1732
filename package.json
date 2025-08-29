@@ -1,18 +1,23 @@
 {
   "name": "introgd2024",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-icons": "./scripts/generate-icons.sh",
+    "update-version": "node scripts/update-version.js",
+    "pwa-build": "npm run generate-icons && npm run update-version && npm run build"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
     "handlebars": "^4.7.8",
     "typescript": "~5.6.3",
     "vite": "^6.3.0",
-    "vite-plugin-handlebars": "^2.0.0"
+    "vite-plugin-handlebars": "^2.0.0",
+    "vite-plugin-pwa": "^1.0.3",
+    "workbox-window": "^7.3.0"
   }
 }
