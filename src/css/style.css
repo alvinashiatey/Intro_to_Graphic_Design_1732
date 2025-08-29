@@ -17,6 +17,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Mobile font size adjustment */
+@media (max-width: 768px) {
+  :root {
+    font-size: 0.9rem;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -40,6 +47,31 @@ main {
 main section {
   height: 100vh;
   padding-inline: 2rem;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: auto;
+    overflow: auto;
+  }
+
+  main section {
+    height: auto;
+    padding-inline: 1rem;
+  }
+
+  section.right {
+    order: -1; /* Move the right section to the top on mobile */
+    min-height: 40vh;
+  }
+
+  body {
+    overflow: auto;
+    max-height: none;
+  }
 }
 
 section.left {
@@ -81,6 +113,19 @@ section.right:has(.banner) {
   background-color: #1a1a1a;
 }
 
+/* Mobile banner adjustments */
+@media (max-width: 768px) {
+  section.right .banner {
+    padding-block: 1rem;
+    min-height: 40vh;
+  }
+
+  section.right .banner .bottom .fac {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -98,4 +143,24 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Additional mobile styles */
+@media (max-width: 768px) {
+  /* Improve touch targets */
+  a,
+  button,
+  summary {
+    padding: 0.5rem 0;
+  }
+
+  /* Better spacing for mobile */
+  details {
+    margin-block: 0.75rem;
+  }
+
+  /* Ensure there's enough space at the bottom */
+  section.left {
+    padding-bottom: 2rem;
+  }
 }
