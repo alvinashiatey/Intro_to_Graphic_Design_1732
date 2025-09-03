@@ -133,9 +133,31 @@ function styleActiveAssignment() {
           ".active"
         ) as HTMLElement | null;
         if (activeExercise) {
+          // Apply distinct but consistent styling
           activeExercise.style.borderLeft = `4px solid ${color}`;
-          activeExercise.style.paddingLeft = "12px";
-          activeExercise.style.backgroundColor = `${color}10`;
+          activeExercise.style.borderBottom = `1px solid ${color}40`;
+          activeExercise.style.borderTop = `1px solid ${color}40`;
+          activeExercise.style.borderRight = `1px solid ${color}40`;
+
+          // Add a subtle background color with the assignment color
+          activeExercise.style.backgroundColor = `${color}08`;
+
+          // Style the exercise title
+          const exerciseTitle = activeExercise.querySelector("strong");
+          if (exerciseTitle) {
+            exerciseTitle.style.color = color;
+            exerciseTitle.style.fontSize = "1.1rem";
+
+            // Add "Active" indicator
+            const activeIndicator = document.createElement("span");
+            activeIndicator.textContent = " (Current)";
+            activeIndicator.style.fontSize = "0.8rem";
+            activeIndicator.style.opacity = "0.8";
+            activeIndicator.style.fontWeight = "normal";
+            activeIndicator.style.marginLeft = "0.5rem";
+            activeIndicator.style.color = color;
+            exerciseTitle.appendChild(activeIndicator);
+          }
         }
       }
     }

@@ -63,7 +63,6 @@ details {
 
 .assignments details.show ul {
   list-style: none;
-  padding-inline-start: 0.9rem;
   text-wrap: pretty;
 }
 
@@ -90,8 +89,21 @@ details {
   margin-bottom: 0.75rem;
   line-height: 1.6;
   position: relative;
-  padding-left: 0;
+  transition: all 0.3s ease;
 }
+
+/* Exercise title styling */
+.assignments details.show ul li span strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for non-active exercises */
+/* .assignments details.show ul li:not(.active):hover {
+  background-color: rgba(0, 0, 0, 0.02);
+} */
 
 summary {
   font-weight: bold;

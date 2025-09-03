@@ -156,17 +156,18 @@ button:focus-visible {
 /* Assignment active state styling */
 .assignments li.active {
   transition: all 0.3s ease;
-  margin-left: -12px; /* Offset the padding to keep text alignment */
-  margin-right: -12px;
-  margin-bottom: 1rem;
+  margin: 1rem 0rem 1rem;
+  position: relative;
   border-radius: 4px;
+  padding: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 /* Add hover effect for the assignments and weeks */
-.assignments > details:hover,
+/* .assignments > details:hover,
 .schedule > details.week:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Highlighted assignments */
 .assignments > details.highlighted {
@@ -177,9 +178,15 @@ button:focus-visible {
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.01); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Additional mobile styles */
