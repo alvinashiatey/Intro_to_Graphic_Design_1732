@@ -46,6 +46,7 @@ details {
   padding: 0.5em 0.5em 0;
   margin-block: 0.5rem;
   text-wrap: pretty;
+  transition: border-color 0.3s ease;
 }
 
 .assignments details span {
@@ -54,9 +55,14 @@ details {
 }
 
 .assignments details.film ul,
-.assignments details.research ul,
-.assignments details.show ul {
+.assignments details.research ul {
   list-style: disc;
+  padding-inline-start: 0.9rem;
+  text-wrap: pretty;
+}
+
+.assignments details.show ul {
+  list-style: none;
   padding-inline-start: 0.9rem;
   text-wrap: pretty;
 }
@@ -83,6 +89,8 @@ details {
 .assignments details.show ul li {
   margin-bottom: 0.75rem;
   line-height: 1.6;
+  position: relative;
+  padding-left: 0;
 }
 
 summary {
@@ -90,6 +98,11 @@ summary {
   margin: -0.5em -0.5em 0;
   padding: 0.5em;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+summary:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 details[open] {

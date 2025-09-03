@@ -145,6 +145,43 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Assignment and Schedule styling */
+.assignments > details,
+.schedule > details.week {
+  border-left-width: 4px;
+  padding-left: 0.75em;
+  transition: all 0.3s ease;
+}
+
+/* Assignment active state styling */
+.assignments li.active {
+  transition: all 0.3s ease;
+  margin-left: -12px; /* Offset the padding to keep text alignment */
+  margin-right: -12px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+/* Add hover effect for the assignments and weeks */
+.assignments > details:hover,
+.schedule > details.week:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlighted assignments */
+.assignments > details.highlighted {
+  box-shadow: 0 0 0 2px var(--anchor-color);
+  animation: pulse 1s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.01); }
+  100% { transform: scale(1); }
+}
+
 /* Additional mobile styles */
 @media (max-width: 768px) {
   /* Improve touch targets */
