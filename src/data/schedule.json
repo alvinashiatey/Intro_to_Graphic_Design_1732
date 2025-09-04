@@ -71,8 +71,11 @@
         "date": "Friday September 19",
         "items": [
           "Critique: Composing Space(s) Part 3",
-          "Lecture: Photocopying",
-          "For next week: Composing Space(s) Part 4"
+          "Lecture: Photocopying"
+        ],
+        "nextweek": [
+          "Read the following <br> <a href='https://www.are.na/block/38940004'>Chris Lee, This Was Written on Stolen Indigenous Land, 2016</a> <br> <a href='https://www.eyemagazine.com/opinion/article/no-more-heroes'>Bridget Wilkins, No More Heroes: Why is Design History So Obsessed by Appearance?, 1992</a>",
+          "Composing Space(s) Part 4"
         ]
       }
     ]
@@ -82,16 +85,13 @@
     "sessions": [
       {
         "date": "Wednesday September 24",
-        "items": [
-          "Readings packet 2 assigned",
-          "Critique: Composing Space(s) Part 4"
-        ]
+        "items": ["Critique: Composing Space(s) Part 4"]
       },
       {
         "date": "Friday September 26",
-        "items": [
-          "Begin TBD assignment (choose designer)",
-          "For next week: TBD presentations"
+        "items": ["Studio"],
+        "nextweek": [
+          "Read the following <br> <a href='https://2x4.org/ideas/1996/designer-as-author/'>Michael Rock, The Designer as Author, 1996</a> <br> <a href='https://futuress.org/stories/does-design-care/'>Cherry-Ann Morgan & Nina Paim, Does Design Care?, 2021</a>"
         ]
       }
     ]
@@ -105,7 +105,11 @@
       },
       {
         "date": "Friday October 3",
-        "items": ["TBD presentations", "For next week: Found Poster assignment"]
+        "items": ["Studio"],
+        "nextweek": [
+          "Found Poster assignment",
+          "Read the following <br> <a href='https://www.are.na/block/38940051'>Jost Hochuli, The Reading Process, 1987</a> <br> <a href='https://www.are.na/block/38940159'>Bryony Quinn, A Typographic Chronicle of Stops and Starts, 2018</a>"
+        ]
       }
     ]
   },
@@ -125,8 +129,11 @@
         "items": [
           "Critique: Found Poster",
           "Screening: Short film pieces for Film Invite assignment",
-          "Slide: Film Invite",
-          "For next week: Film Invite Part 1"
+          "Slide: Film Invite"
+        ],
+        "nextweek": [
+          "Film Invite Part 1",
+          "Read the following <br> <a href='https://www.are.na/block/38940236'>Ellen Lupton, The Story of Graphic Design, 2017</a> <br> <a href='https://www.are.na/block/38940261'>Adrian Shaughnessy, How to be a Graphic Designer, Without Losing Your Soul, 2005</a>"
         ]
       }
     ]
