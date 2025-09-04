@@ -131,10 +131,7 @@
           "Screening: Short film pieces for Film Invite assignment",
           "Slide: Film Invite"
         ],
-        "nextweek": [
-          "Film Invite Part 1",
-          "Read the following <br> <a href='https://www.are.na/block/38940236'>Ellen Lupton, The Story of Graphic Design, 2017</a> <br> <a href='https://www.are.na/block/38940261'>Adrian Shaughnessy, How to be a Graphic Designer, Without Losing Your Soul, 2005</a>"
-        ]
+        "nextweek": ["Film Invite Part 1"]
       }
     ]
   },
@@ -148,7 +145,10 @@
       },
       {
         "date": "Friday October 24",
-        "items": ["Demo: InDesign", "Working on Film Invite Part 2"]
+        "items": ["Demo: InDesign", "Working on Film Invite Part 2"],
+        "nextweek": [
+          "Read the following <br> <a href='https://www.are.na/block/38940185'>Robin Kinross, More Light! For a Typography That Knows What it's Doing , 1993</a> <br> <a href='https://www.jdakotabrown.net/writing/automation-pamphlet-2019'>J. Dakota Brown, Typography, Automation, and the Division of Labor: A Brief History , 2019</a>"
+        ]
       }
     ]
   },
@@ -157,10 +157,7 @@
     "sessions": [
       {
         "date": "Wednesday October 29",
-        "items": [
-          "Working on Film Invite Part 2 & Part 3",
-          "Reading packet 3 discussion / reading responses uploaded"
-        ]
+        "items": ["Working on Film Invite Part 2 & Part 3"]
       },
       {
         "date": "Friday October 31",
@@ -169,6 +166,10 @@
           "Lecture: Collecting",
           "Readings packet 4 assigned",
           "For after Spring Recess: Collecting-Documenting assignment (2 ideas for visual collection)"
+        ],
+        "nextweek": [
+          "Collecting-Documenting assignment (2 ideas for visual collection)",
+          "Read the following <br> <a href='https://www.are.na/block/38940308'>Paul Elliman, The World as a Printing Surface, 2004</a> <br> <a href='https://www.are.na/block/38940358'>Céline Condorelli & James Langdon, In the Background, 2016</a>"
         ]
       }
     ]
@@ -180,15 +181,15 @@
         "date": "Wednesday November 5",
         "items": [
           "Present 2 ideas for visual collection",
-          "Reading packet 4 discussion / reading responses uploaded",
           "Lecture: Documenting"
         ]
       },
       {
         "date": "Friday November 7",
-        "items": [
-          "Working on documenting collection",
-          "For next week: Documentation of collection"
+        "items": ["Working on documenting collection"],
+        "nextweek": [
+          "Documentation of collection",
+          "Read the following <br> <a href='https://www.are.na/block/38940376'>Paul Elliman, Token Resistance, 2006</a> <br> <a href='https://www.are.na/block/38940390'>Jost Hochuli, Book Design as a School of Thought, 1996</a>"
         ]
       }
     ]
@@ -205,10 +206,10 @@
       },
       {
         "date": "Friday November 14",
-        "items": [
-          "Critique: Collecting-Documenting",
-          "Readings packet 5 assigned",
-          "For next week: Collecting-Collating assignment sketches"
+        "items": ["Critique: Collecting-Documenting"],
+        "nextweek": [
+          "Collecting-Collating assignment sketches",
+          "Read the following <br> <a href='https://www.are.na/block/38940421'>James Goggin, The Matta-Clark Complex: Materials, Interpretation and the Designer, 2009</a> <br> <a href='https://www.are.na/block/38940475'>Ulises Carrion, The New Art of Making Books, 1975</a>"
         ]
       }
     ]
@@ -225,11 +226,7 @@
       },
       {
         "date": "Friday November 21",
-        "items": [
-          "Lecture: TBD",
-          "Readings packet 5 discussion / reading responses uploaded",
-          "Working on proof of booklet"
-        ]
+        "items": ["Working on proof of booklet"]
       }
     ]
   },
@@ -258,7 +255,7 @@
         "date": "Friday December 12",
         "items": [
           "Final Review with guest critic TBC",
-          "By Friday April 26: Upload documentation of work to class archive"
+          "By Friday December 15: Upload documentation of work to class archive"
         ]
       }
     ]
