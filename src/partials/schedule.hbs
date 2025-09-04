@@ -20,6 +20,16 @@
                 <li>{{this}}</li>
               {{/each}}
             </ul>
+            {{#if nextweek}}
+              <div class="next-week-info">
+                <h4>For Next Week:</h4>
+                <ul>
+                  {{#each nextweek}}
+                    <li>{{{this}}}</li>
+                  {{/each}}
+                </ul>
+              </div>
+            {{/if}}
           </details>
         {{/each}}
       </details>

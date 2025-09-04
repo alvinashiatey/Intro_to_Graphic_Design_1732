@@ -21,8 +21,7 @@
         "items": [
           "Friction in Methods Exercise 1",
           "Readings packet 1 assigned",
-          "Begin Composing Space(s) assignment (choose / visit / describe spaces)",
-          "For next week: Get access to Annex Lab"
+          "Begin Composing Space(s) assignment (choose / visit / describe spaces)"
         ]
       },
       {
@@ -30,6 +29,9 @@
         "items": [
           "Present space chosen for Composing Space(s) assignment",
           "Working on Composing Space(s) Part 1"
+        ],
+        "nextweek": [
+          "<a href='https://docs.google.com/document/d/13Sx9TUCfDR_V5R9Q21sNbtaTjurplmvH50TixdHpNR8/edit?tab=t.0'>Kindly Complete this form to gain access to Annex Lab</a>"
         ]
       }
     ]
