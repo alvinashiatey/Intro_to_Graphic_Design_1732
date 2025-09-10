@@ -42,15 +42,11 @@
     "sessions": [
       {
         "date": "Wednesday September 10",
-        "items": ["Class tools and materials distributed", "Demo: Illustrator"]
+        "items": ["Class tools and materials distributed", "Demo: Inkscape"]
       },
       {
         "date": "Friday September 12",
-        "items": [
-          "Composing Space(s) Part 1 due",
-          "Lecture: Graphic Design History",
-          "Demo: Illustrator"
-        ],
+        "items": ["Composing Space(s) Part 1 due", "Demo: Illustrator"],
         "nextweek": [
           "Read the following <br> <a href='https://eyeondesign.aiga.org/there-is-no-such-thing-as-neutral-graphic-design/'>Ellen Lupton & Leslie Xia, There is No Such Thing as Neutral Graphic Design, 2021</a> <br> <a href='https://www.are.na/block/38939919'>Andrew Blauvelt, Tool (Or, Post-production for the Graphic Designer), 2011</a>"
         ]
