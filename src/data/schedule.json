@@ -20,7 +20,6 @@
         "date": "Wednesday September 3",
         "items": [
           "Friction in Methods Exercise 1",
-          "Readings packet 1 assigned",
           "Begin Composing Space(s) assignment (choose / visit / describe spaces)"
         ]
       },
@@ -59,6 +58,7 @@
       {
         "date": "Wednesday September 17",
         "items": [
+          "Reading discussion",
           "Critique: Composing Space(s) Part 1 and Part 2",
           "For Friday: Composing Space(s) Part 3"
         ]
@@ -81,7 +81,7 @@
     "sessions": [
       {
         "date": "Wednesday September 24",
-        "items": ["Critique: Composing Space(s) Part 4"]
+        "items": ["Reading discussion", "Critique: Composing Space(s) Part 4"]
       },
       {
         "date": "Friday September 26",
@@ -97,13 +97,12 @@
     "sessions": [
       {
         "date": "Wednesday October 1",
-        "items": ["TBD"]
+        "items": ["Reading discussion", "Studio", "Found Poster assignment"]
       },
       {
         "date": "Friday October 3",
-        "items": ["Studio"],
+        "items": ["Lecture: Typography"],
         "nextweek": [
-          "Found Poster assignment",
           "Read the following <br> <a href='https://www.are.na/block/38940051'>Jost Hochuli, The Reading Process, 1987</a> <br> <a href='https://www.are.na/block/38940159'>Bryony Quinn, A Typographic Chronicle of Stops and Starts, 2018</a>"
         ]
       }
@@ -115,19 +114,15 @@
       {
         "date": "Wednesday October 8",
         "items": [
-          "Lecture: Typography",
-          "Readings packet 2 discussion / reading responses uploaded",
-          "Readings packet 3 assigned"
+          "Critique: Found Poster",
+          "Screening: Short film pieces for Film Invite assignment",
+          "Slide: Film Invite"
         ]
       },
       {
         "date": "Friday October 10",
-        "items": [
-          "Critique: Found Poster",
-          "Screening: Short film pieces for Film Invite assignment",
-          "Slide: Film Invite"
-        ],
-        "nextweek": ["Film Invite Part 1"]
+        "items": ["Class visit to Brandford College Press"],
+        "nextweek": ["*Film Invite Part 1"]
       }
     ]
   },
@@ -153,14 +148,16 @@
     "sessions": [
       {
         "date": "Wednesday October 29",
-        "items": ["Working on Film Invite Part 2 & Part 3"]
+        "items": [
+          "Reading discussion",
+          "Working on Film Invite Part 2 & Part 3"
+        ]
       },
       {
         "date": "Friday October 31",
         "items": [
           "Critique: Film Invite Part 2 & Part 3",
           "Lecture: Collecting",
-          "Readings packet 4 assigned",
           "For after Spring Recess: Collecting-Documenting assignment (2 ideas for visual collection)"
         ],
         "nextweek": [
@@ -176,6 +173,7 @@
       {
         "date": "Wednesday November 5",
         "items": [
+          "Reading discussion",
           "Present 2 ideas for visual collection",
           "Lecture: Documenting"
         ]
@@ -196,6 +194,7 @@
       {
         "date": "Wednesday November 12",
         "items": [
+          "Reading discussion",
           "Present 2 different methods of documentation",
           "Working on documenting collection"
         ]
@@ -216,6 +215,7 @@
       {
         "date": "Wednesday November 19",
         "items": [
+          "Reading discussion",
           "Lecture: Looking at Books",
           "Working on sketches and mockups of booklet"
         ]
