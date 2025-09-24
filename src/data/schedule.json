@@ -81,11 +81,15 @@
     "sessions": [
       {
         "date": "Wednesday September 24",
-        "items": ["Reading discussion", "Critique: Composing Space(s) Part 4"]
+        "items": [
+          "Reading discussion",
+          "Critique: Composing Space(s) Part 4",
+          "<br>Exercise:<br>For our next class, choose a piece of graphic design that you personally consider the best-designed material ever. Print it out (or otherwise reproduce it) at its original scale so we can look at it together.<br><br> Be prepared to answer the following questions about your selection:<br> 1. <strong>Why this one?</strong> – What makes it, in your view, the \"best\"?<br> 2. <strong>Success</strong> – In what ways is it successful at doing what it was meant to do?<br> 3. <strong>Distinctiveness</strong> – What sets it apart from other designs?<br> 4. <strong>Process</strong> – How was it designed (consider tools, methods, or context)?<br> 5. <strong>Authorship</strong> – Who designed it, and what do we know about them?"
+        ]
       },
       {
         "date": "Friday September 26",
-        "items": ["Studio"],
+        "items": ["Presentation: Best-Designed Piece Exercise"],
         "nextweek": [
           "Read the following <br> <a href='https://2x4.org/ideas/1996/designer-as-author/'>Michael Rock, The Designer as Author, 1996</a> <br> <a href='https://futuress.org/stories/does-design-care/'>Cherry-Ann Morgan & Nina Paim, Does Design Care?, 2021</a>"
         ]
