@@ -105,7 +105,11 @@
       },
       {
         "date": "Friday October 3",
-        "items": ["Lecture: Typography"],
+        "items": [
+          "Lecture: Typography",
+          "Found Poster: Present selected poster",
+          "Studio: Develop 5 variations of found poster"
+        ],
         "nextweek": [
           "Read the following <br> <a href='https://www.are.na/block/38940051'>Jost Hochuli, The Reading Process, 1987</a> <br> <a href='https://www.are.na/block/38940159'>Bryony Quinn, A Typographic Chronicle of Stops and Starts, 2018</a>"
         ]
